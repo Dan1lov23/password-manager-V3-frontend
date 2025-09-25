@@ -1,0 +1,12 @@
+:root {
+    --background-color: #333333;
+    --text-color: #ffffff;
+    --hover-color: #278ef8;
+    --gold-color: #fff400;
+    --red-color: #d11111;
+    --black-color: black;
+    --transition: 0.4s;
+    --scale: 1.1;
+    --radius: 10px;
+    --font-weight: 900;
+}
