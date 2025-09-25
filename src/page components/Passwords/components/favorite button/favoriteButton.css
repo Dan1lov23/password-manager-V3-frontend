@@ -1,0 +1,21 @@
+.favoriteButtonDark {
+    p {
+        font-size: 40px;
+        color: var(--text-color);
+        transition: var(--transition);
+    }
+    p:hover {
+        scale: var(--scale);
+    }
+}
+
+.favoriteButtonLight {
+    p {
+        font-size: 40px;
+        color: var(--black-color);
+        transition: var(--transition);
+    }
+    p:hover {
+        scale: var(--scale);
+    }
+}

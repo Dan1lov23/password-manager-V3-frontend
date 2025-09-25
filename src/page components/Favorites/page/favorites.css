@@ -1,0 +1,19 @@
+.favoritesDark {
+    background-color: var(--background-color);
+    .mainContent {
+        .main {
+            display: grid;
+            grid-template-columns: 30% 70%;
+        }
+    }
+}
+
+.favoritesLight {
+    background-color: var(--text-color);
+    .mainContent {
+        .main {
+            display: grid;
+            grid-template-columns: 30% 70%;
+        }
+    }
+}

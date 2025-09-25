@@ -1,0 +1,30 @@
+.noAuthWarningDark {
+    text-align: center;
+    p {
+        font-size: 40px;
+    }
+    .link {
+        p {
+            font-size: 40px;
+        }
+        p:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.noAuthWarningLight {
+    text-align: center;
+    p {
+        font-size: 40px;
+    }
+    .link {
+        p {
+            font-size: 40px;
+            color: var(--black-color);
+        }
+        p:hover {
+            text-decoration: underline;
+        }
+    }
+}

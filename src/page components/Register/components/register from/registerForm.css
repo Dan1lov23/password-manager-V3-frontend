@@ -1,0 +1,176 @@
+.registerForm {
+    width: 30%;
+    height: 85vh;
+    border: 2px solid var(--text-color);
+    border-radius: 10px;
+    text-align: center;
+    .registerTitle {
+        margin-top: 10%;
+        text-align: center;
+        p {
+            font-size: 30px;
+        }
+    }
+    .registerInput {
+        margin-top: 5%;
+        display: grid;
+        justify-items: center;
+        .marker {
+            width: 60%;
+            text-align: left;
+            p {
+                font-size: 20px;
+            }
+        }
+        input {
+            width: 60%;
+            height: 3.5vh;
+            border-radius: 10px;
+            border: none;
+        }
+    }
+    .repeatPasswordInput {
+        margin-top: 5%;
+        display: grid;
+        justify-items: center;
+        .marker {
+            width: 60%;
+            text-align: left;
+            p {
+                font-size: 20px;
+            }
+        }
+        button {
+            width: 10%;
+            height: 30px;
+        }
+    }
+    .error {
+        margin-top: 10%;
+    }
+    .registerButton {
+        margin-top: 10%;
+        button {
+            width: 61%;
+            height: 4.5vh;
+            border: none;
+            border-radius: 10px;
+            background: var(--text-color);
+            color: black;
+            font-size: 20px;
+            transition: 0.4s;
+        }
+        button:hover {
+            scale: 1.05;
+            color: white;
+            background: var(--hover-color);
+        }
+    }
+    .linkToLogin {
+        margin-top: 10%;
+        .title {
+            p {
+                font-size: 20px;
+            }
+        }
+        .link {
+            p {
+                font-size: 25px;
+                transition: 0.5s;
+            }
+            p:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .registerForm {
+        width: 95%;
+        height: 80vh;
+        border: 2px solid var(--text-color);
+        border-radius: 10px;
+        text-align: center;
+        .registerTitle {
+            margin-top: 10%;
+            text-align: center;
+            p {
+                font-size: 30px;
+            }
+        }
+        .registerInput {
+            margin-top: 5%;
+            display: grid;
+            justify-items: center;
+            .marker {
+                width: 60%;
+                text-align: left;
+                p {
+                    font-size: 20px;
+                }
+            }
+            input {
+                width: 60%;
+                height: 3.5vh;
+                border-radius: 10px;
+                border: none;
+            }
+        }
+        .repeatPasswordInput {
+            margin-top: 5%;
+            display: grid;
+            justify-items: center;
+            .marker {
+                width: 60%;
+                text-align: left;
+                p {
+                    font-size: 20px;
+                }
+            }
+            button {
+                width: 10%;
+                height: 30px;
+            }
+        }
+        .error {
+            margin-top: 10%;
+        }
+        .registerButton {
+            margin-top: 10%;
+            button {
+                width: 61%;
+                height: 4.5vh;
+                border: none;
+                border-radius: 10px;
+                background: var(--text-color);
+                color: black;
+                font-size: 20px;
+                transition: 0.4s;
+            }
+            button:hover {
+                scale: 1.05;
+                color: white;
+                background: var(--hover-color);
+            }
+        }
+        .linkToLogin {
+            margin-top: 10%;
+            .title {
+                p {
+                    font-size: 20px;
+                }
+            }
+            .link {
+                p {
+                    font-size: 25px;
+                    transition: 0.5s;
+                }
+                p:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+}

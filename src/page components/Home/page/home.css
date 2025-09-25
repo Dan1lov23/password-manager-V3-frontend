@@ -1,0 +1,21 @@
+.homeDark {
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        width: 100%;
+    }
+}
+
+.homeLight {
+    background-color: #fff;
+    height: 100vh;
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        width: 100%;
+    }
+}
