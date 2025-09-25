@@ -1,0 +1,69 @@
+.logoutButtonDark {
+    button {
+        width: 45px;
+        height: 45px;
+        border: 2px solid var(--text-color);
+        background-color: var(--background-color);
+        color: var(--text-color);
+        border-radius: var(--radius);
+        font-size: 20px;
+        transition: var(--transition);
+    }
+    button:hover {
+        background-color: var(--hover-color);
+        scale: var(--scale);
+    }
+}
+
+.logoutButtonLight {
+    button {
+        width: 45px;
+        height: 45px;
+        border: 2px solid var(--black-color);
+        background-color: var(--text-color);
+        color: var(--black-color);
+        border-radius: var(--radius);
+        font-size: 20px;
+        transition: var(--transition);
+    }
+    button:hover {
+        background-color: var(--hover-color);
+        scale: var(--scale);
+    }
+}
+
+@media(min-width: 1880px) {
+    .logoutButtonDark {
+        button {
+            width: 55px;
+            height: 55px;
+            border: 2px solid var(--text-color);
+            background-color: var(--background-color);
+            color: var(--text-color);
+            border-radius: var(--radius);
+            font-size: 30px;
+            transition: var(--transition);
+        }
+        button:hover {
+            background-color: var(--hover-color);
+            scale: var(--scale);
+        }
+    }
+
+    .logoutButtonLight {
+        button {
+            width: 55px;
+            height: 55px;
+            border: 2px solid var(--black-color);
+            background-color: var(--text-color);
+            color: var(--black-color);
+            border-radius: var(--radius);
+            font-size: 30px;
+            transition: var(--transition);
+        }
+        button:hover {
+            background-color: var(--hover-color);
+            scale: var(--scale);
+        }
+    }
+}

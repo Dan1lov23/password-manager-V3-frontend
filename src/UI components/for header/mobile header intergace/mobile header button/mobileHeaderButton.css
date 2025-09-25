@@ -1,0 +1,25 @@
+.mobileHeaderInterfaceButtonDark {
+    p {
+        font-size: 30px;
+        background-color: var(--background-color);
+        color: var(--text-color);
+        border-radius: var(--radius);
+        transition: var(--transition);
+    }
+    p:hover {
+        scale: var(--scale);
+    }
+}
+
+.mobileHeaderInterfaceButtonLight {
+    p {
+        font-size: 30px;
+        background-color: var(--text-color);
+        color: var(--black-color);
+        border-radius: var(--radius);
+        transition: var(--transition);
+    }
+    p:hover {
+        scale: var(--scale);
+    }
+}

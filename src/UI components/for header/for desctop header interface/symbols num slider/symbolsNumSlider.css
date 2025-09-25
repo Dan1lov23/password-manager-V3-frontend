@@ -1,0 +1,7 @@
+.symbolsNumSlider {
+    text-align: center;
+    p {
+        font-size: 30px;
+        color: var(--black-color);
+    }
+}
